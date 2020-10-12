@@ -1,0 +1,31 @@
+*{
+    margin:  0;
+    padding: 0;
+    font-family:sans-serif;
+}
+
+.topnav{
+    background-color: pink;
+    overflow:hidden;
+}
+.topnav a{
+    float: left;
+    color:rgb(16, 108, 199);
+    text-align:center;
+    padding:14px 16px;
+    text-decoration:none;
+    font-size:17px;
+
+}
+.topnav a:hover{
+    background-color: rgb(148, 148, 28);
+    color:rgb(37, 235, 225);
+
+}
+.topnav a.active{
+    background-color:linen;
+    color:rgb(200, 222, 223);
+}
+.topnav-right{
+    float:right;
+}

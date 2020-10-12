@@ -1,0 +1,9 @@
+<div class="container">
+    <h3><u>Enter Fooditem Details Below to update in DB</u></h3>
+    <input class="form-control" type="text" [(ngModel)]="fooditem.id" placeholder="Enter Fooditem Id"/>
+    <input class="form-control" type="text" [(ngModel)]="fooditem.name" placeholder="Enter Fooditem Name"/>
+    <input class="form-control" type="text" [(ngModel)]="fooditem.price" placeholder="Enter Fooditem Price"/>
+    <input class="form-control" type="text" [(ngModel)]="fooditem.variety" placeholder="Enter Fooditem Variety"/>
+    <input class="form-control" type="url" [(ngModel)]="fooditem.avatar" placeholder="Paste Fooditem Image URL"/>
+    <button class="btn btn-primary" type="button" (click)="updateFooditem()">Update Fooditem</button>
+</div>
